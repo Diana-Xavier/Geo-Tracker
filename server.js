@@ -17,7 +17,7 @@ io.listen(httpServer).on('connection', function (socket) {
 	console.log('Client connected...');
     socket.on('switch', function(data) {
         console.log("location");
-		 socket.emit('data',"40.7701,73.9821");
+		 socket.emit('data',"13.0905,80.2843962");
 		/*if(data === "on"){
 			serialPort.write(data + 1);
 		}else if(data === "off"){

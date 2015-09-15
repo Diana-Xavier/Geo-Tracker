@@ -22,7 +22,7 @@ function initMap(trackLatitude,trackLongitude) {
 	console.log("longitude"+pos.lng);
       infoWindow.setPosition(pos);
 	  infoWindow.setPosition(pos1);
-      infoWindow.setContent('Location found.');
+      infoWindow.setContent('L1');
 	  
       map.setCenter(pos);
     }, function() {
